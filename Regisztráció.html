@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="belépés.js"></script>
+
+    <title>Regisztráció</title>
+</head>
+<body>
+
+  
+    <div class="container">
+     
+  <div id="Regisztrácio"> 
+    <h1>Regisztráció</h1>
+    <hr>
+<div id="sorki">
+  
+  <input type="text" placeholder="Felhasználónév" name="nev" id="nev" required> <br>
+ 
+  <input type="text" placeholder="Taj-szám" name="tajszam" id="tajszam" required> <br>
+
+
+  <input type="text" placeholder="Email" name="email" id="email" required> <br>
+
+
+  <input type="password" placeholder="Jelszó" name="Jelszó" id="Jelszó" required><br>
+
+  <input type="password" placeholder="Jelszó megismétlése" name="Jelszóm-repeat" id="Jelszóm-repeat" required><br>
+  <hr>
+
+  <p>A fiók létrehozásával Ön elfogadja, hogy <a href="#">Feltételek és adatvédelem</a>.</p>
+  <button  onclick="belépés1()" type="submit" class="registerbtn">Regisztráció</button>
+
+  <div class="container signin">
+    <p>Van már fiókod? <a href="bejelentkezés.html" target="_blank">Belépés</a>.</p>
+  </div>
+</div>
+</div>
+   
+  
+   
+  </div>
+  
+  
+ 
+
+
+
+    
+    <footer class="mt-5">
+        <div class="row">
+      <div class="col-sm-3 col-md-3 offset-1" >
+        <div id="nyitva">
+          <h3 id="igen">Nyitvatartás</h3>
+          <ul id="tartas">
+            
+            <li>Hétfő:8-16</li>
+            <li>Kedd:8-16</li>  
+          <li>   Szerda:8-16</li> 
+          <li>   Csütörtök:8-16</li> 
+          <li>  Péntek:8-16</li> 
+          <li>   Szombat:zárva</li> 
+          <li>   Vasárnap: zárva</li>
+          
+          </ul>
+          
+        </div>
+      
+      </div>
+      
+      <div class="col-sm-3 col-md-3 offset-1" >
+      
+      
+       <h3 id="among"> Copyiright cumo</h3>
+      
+      </div>
+      <div class="col-sm-3 col-md-3 offset-1">
+      <div id="hirlevel">
+        <h3 id="hir">Hírlevél:</h3>
+      <form class="footerr" action="">
+        <div class="input-group mb-3">
+          <input type="text" class="form-control" placeholder="E-mail" aria-label="E-mail" aria-describedby="basic-addon2" id="email">
+            <button class="input-group-text btn btn-dark" id="basic-addon2" onclick="feliratkozas();">Feliratkozom!</button>
+      
+        </div>
+      </form>
+      </div>
+      
+      </div>
+      
+        </div>
+      </footer >
+</body>
+</html>

@@ -1,0 +1,286 @@
+
+h1,h2,h3,h5{
+    color:black ;
+   
+    text-align: center;
+    font-family: 'Tilt Prism', cursive;
+    font-weight: bold;
+    padding-top: 20px;
+}
+.card-title{
+    text-align: center;
+}
+.card-body{
+    padding: 10px;
+   background-color: #29D1E8;
+   color: black;
+   font-weight: bold;
+   font-family:Arial, Helvetica, sans-serif;
+
+  
+}
+img{
+    border-radius: 8px;
+}
+
+.navbar{
+    background-color: #29D1E8;
+}
+#logo{
+    height: 30px;
+    width: 20px;
+    color: white;
+}
+#banner{
+   height: 400px;
+    background-image: url("banner-min.jpg");
+    background-position: center center;
+    background-size: cover;
+}
+.ikon{
+    width: 20px;
+}
+footer{
+    background-color: #29D1E8;
+   
+}
+footer li{
+    list-style-type: none;
+}
+#home{
+    background-image: url("img/asd.jpg");
+    height: 100vh;
+background-attachment: fixed;
+background-position: center center;
+background-size: cover;    
+}
+
+#home .intro{
+    color: white;
+    height: 100vh;
+}
+#home .intro .col-md-8{
+    background-color: rgba(0,0,0,0.4);
+}
+hr{
+width: 50%;
+    margin: auto;
+}
+main .container{
+    background-color: none;
+}
+.modal-header, .modal-footer{
+    background-color: #29D1E8;
+}
+a{
+    text-decoration: none;
+
+}
+.card:hover{
+    box-shadow: 0px 5px #29D1E8;
+}
+body{
+    background-image: url("img/asd.png");
+  
+}
+.blog-img{
+border: 10px solid #1F5B25;
+border-radius: 3px;
+}
+h2{
+    color: black;
+}
+.sorkizart{
+    text-align: justify;
+}
+
+ul{
+    color:white ;
+    font-family: 'Tilt Prism', cursive;
+    font-weight: bold;
+    padding-top: 20px;
+}
+.navbar-brand{
+    font-family: 'Tilt Prism', cursive;
+    font-weight: bold;
+    padding-top: 20px;
+    color:white ;
+}
+.footerr{
+    padding: 30px 20px 10px;
+}
+#szerszamok{
+    background-image: url("img/tools-864983_1280.jpg");
+    height: 100vh;
+background-attachment: fixed;
+background-position: center center;
+background-size: cover;    
+}
+#festek{
+    background-image: url("img/festekhatter.jpg");
+    height: 100vh;
+background-attachment: fixed;
+background-position: center center;
+background-size: cover;    
+}
+.m-5{
+    text-shadow: 4px 6px 10px black
+}
+#szoveg{
+    text-align: justify;
+}
+#nyitva{
+color: white;
+    text-align: center;
+}
+#igen{
+    color: white;
+}
+#among{
+    font-size: small;
+    margin-top: 200px;
+}
+#tartas{
+    margin-right: 30px;
+}
+#hir{
+    color: white;
+}
+#Regisztrácio{
+    text-align: center;
+    color: white;
+    background-color: #29D1E8 ;
+    opacity: 80%;
+    margin: 100px 300px 210px;
+}
+body{
+
+    background-image: url("img/asd.jpg");
+    background-size: cover;
+}
+
+
+
+
+
+* {box-sizing: border-box}
+
+.container {
+    padding: 16px;
+}
+
+input[type=text], input[type=password] {
+  
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+
+.registerbtn {
+  background-color: gray;
+  color: white;
+  padding: 10px 50px;
+
+}
+
+.registerbtn:hover {
+  opacity:1;
+}
+
+
+a {
+  color: dodgerblue;
+}
+
+
+.signin {
+  background-color: #29D1E8;
+  text-align: center;
+}
+#basic-addon2{
+    padding: 10px;
+}
+.cock2{
+    background-color: gray;
+    color: white;
+    padding: 10px 50px;
+}
+.card {
+    max-width: 1000px;
+    border-radius: 0.5rem;
+    background-color: #fff;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    border: 1px solid transparent;
+  }
+  
+  .card a {
+    text-decoration: none
+  }
+  
+  .content {
+    padding: 0.1rem;
+  }
+  
+.image {
+    object-fit: cover;
+    width: 100%;
+    height: 200px;
+    background-color: rgb(239, 205, 255);
+  }
+  
+  .title {
+    color: #111827;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    font-weight: 600;
+  }
+  
+  .desc {
+    margin-top: 0.5rem;
+    color: #6B7280;
+    font-size: 0.875rem;
+    line-height: 1.0rem;
+  }
+  
+  .action {
+    display: inline-flex;
+ 
+    color: #ffffff;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: 500;
+    align-items: center;
+    gap: 0.25rem;
+    background-color: #2563EB;
+    padding: 4px 8px;
+    border-radius: 4px;
+  }
+  
+  .action span {
+    transition: .3s ease;
+  }
+  
+  .action:hover span {
+    transform: translateX(4px);
+  }
+  #hr{
+ opacity: 0%;
+  }
+ #hirlevel{
+    margin-top: 50px;
+    margin-right: 30px;
+ }
+ 
+  
