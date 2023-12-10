@@ -155,7 +155,8 @@ color: white;
     margin: 100px 300px 210px;
 }
 body{
-
+ 
+    margin-top: 100px;
     background-image: url("img/asd.jpg");
     background-size: cover;
 }
