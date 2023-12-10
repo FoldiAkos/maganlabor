@@ -42,6 +42,7 @@ img{
 }
 footer{
     background-color: #29D1E8;
+    padding: 10px 10px 10px;
    
 }
 footer li{
@@ -137,6 +138,7 @@ color: white;
 }
 body{
   background-image: url("img/pexels-pixabay-209831.jpg");
+  background-size: cover;
  
 }
 
@@ -364,10 +366,10 @@ a {
     display: block;
     border-radius: 3px;
     width: 96%;
-    color: #fff;
+    color: white;
     height: 48px;
     font-size: 2rem;
-    background-color: #29D1E8;
+    background-color: lightgray;
     margin-top: 20px;
     border-style: none;
     font-family: "Poppins", sans-serif;
