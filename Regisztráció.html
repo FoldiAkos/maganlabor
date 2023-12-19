@@ -2,7 +2,8 @@
 <html lang="hu">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
@@ -19,14 +20,14 @@
 
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
       <div class="container-fluid">
-        <a class="navbar-brand" href="Index.html"><img src="img/Kész2/Atom-Black.svg" class="ikon">Magánlabor</a>
+        <a class="navbar-brand" href="Index.html"><img src="img/Icon.ico" class="ikon"> Magánlabor</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="Index.html">Kezdőlap</a>
+              <a class="nav-link" aria-current="page" href="Index.html">Kezdőlap</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="Szolgaltatasok.html">Szolgáltatásaink</a>
@@ -35,16 +36,14 @@
               <a class="nav-link" href="Szakemberek.html">Szakembereink</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="Verhely.html">Vérvételi Helyek</a>
+              <a class="nav-link" href="idopont.html">Időpont foglalás</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="Blog.html">Időpont foglalás</a>
+              <a class="nav-link " href="Terkep.html">Vérvételi Helyek</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="Terkep.html">Térképes Kereső</a>
-            </li>
+            
             <li class="nav-item2">
-              <a class="nav-link">ELÉRHETŐSÉGEK</a>
+              <a class="nav-link">Elérhetőségek</a>
               <a class="nav-link">MGNlabor@gmail.com</a>
               <a class="nav-link" >+36-62-257-666</a>
             </li>
@@ -53,41 +52,48 @@
               <a class="nav-link active" href="Regisztráció.html">Regisztráció</a>
             </li>
           </ul>
-  
+
           
         </div>
       </div>
     </nav>
+
+  
    </header>
   
     <div class="container">
+     <div class="row sor">
+      <div class="col-lg-8 col-md-6 offset-2">
+        <div id="Regisztrácio"> 
+          <h1>Regisztráció</h1>
+          <hr>
+      <div id="sorki">
+        
+        <input type="text" placeholder="Felhasználónév" name="nev" id="nev" required> <br>
+       
+        <input type="text" placeholder="Taj-szám" name="tajszam" id="tajszam" required> <br>
+      
+      
+        <input type="text" placeholder="Email" name="email" id="email" required> <br>
+      
+      
+        <input type="password" placeholder="Jelszó" name="Jelszó" id="Jelszó" required><br>
+      
+        <input type="password" placeholder="Jelszó megismétlése" name="Jelszóm-repeat" id="Jelszómrepeat" required><br>
+        <hr>
+      
+        <p>A fiók létrehozásával Ön elfogadja, hogy <a href="#">Feltételek és adatvédelem</a>.</p>
+        <button  onclick="belépés1()" type="submit" class="registerbtn">Regisztráció</button>
+      
+        <div class="container signin">
+          <p>Van már fiókod? <a href="bejelentkezés.html" target="_blank">Belépés</a>.</p>
+        </div>
+      </div>
+      </div>
+      </div>
      
-  <div id="Regisztrácio"> 
-    <h1>Regisztráció</h1>
-    <hr>
-<div id="sorki">
-  
-  <input type="text" placeholder="Felhasználónév" name="nev" id="nev" required> <br>
- 
-  <input type="text" placeholder="Taj-szám" name="tajszam" id="tajszam" required> <br>
+     </div>
 
-
-  <input type="text" placeholder="Email" name="email" id="email" required> <br>
-
-
-  <input type="password" placeholder="Jelszó" name="Jelszó" id="Jelszó" required><br>
-
-  <input type="password" placeholder="Jelszó megismétlése" name="Jelszóm-repeat" id="Jelszóm-repeat" required><br>
-  <hr>
-
-  <p>A fiók létrehozásával Ön elfogadja, hogy <a href="#">Feltételek és adatvédelem</a>.</p>
-  <button  onclick="belépés1()" type="submit" class="registerbtn">Regisztráció</button>
-
-  <div class="container signin">
-    <p>Van már fiókod? <a href="bejelentkezés.html" target="_blank">Belépés</a>.</p>
-  </div>
-</div>
-</div>
    
   
    
@@ -132,7 +138,7 @@
       <form class="footerr" action="">
         <div class="input-group mb-3">
           <input type="text" class="form-control" placeholder="E-mail" aria-label="E-mail" aria-describedby="basic-addon2" id="email">
-            <button class="input-group-text btn btn-dark" id="basic-addon2" onclick="feliratkozas();">Feliratkozom!</button>
+            <button class="input-group-text btn btn-dark" id="gomb" onclick="feliratkozas();">Feliratkozom!</button>
       
         </div>
       </form>
